@@ -17,7 +17,6 @@
 }
 
 /*header*/
-
 header {
 	background: #000;
 }
@@ -26,6 +25,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	background: #000;
 }
 
 a {
@@ -261,24 +261,6 @@ h4 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*tabs*/
 
 ul li {
@@ -338,6 +320,7 @@ a {
 	line-height: 41px;
 	color: #000000;
 	margin: 50px 0;
+	text-transform: none;
 }
 
 .tabs-content-text__description {
@@ -834,23 +817,6 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
 	background: black;
 	padding-top: 41.65px;
@@ -880,3 +846,266 @@ footer {
 	color: rgba(255, 255, 255, 0.5);
 	padding-bottom: 27px;
 }
+
+
+
+/*Responsive*/
+@media (max-width: 1200px) {
+	.wrapper {
+		width: 1200px;
+	}
+
+	.logo,
+	.banner-info {
+		padding-left: 115.28px;
+	}
+
+
+	.wrapper {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.banner-info__logo {
+		width: 183.1px;
+	}
+
+	h1 {
+		font-size: 36px;
+		width: 454.36px;
+	}
+
+	.banner-info__text {
+		font-size: 14px;
+		line-height: 16px;
+		width: 183.1px;
+	}
+
+	.banner-form__name {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.banner-info__btn {
+		padding: 15px 45px;
+	}
+
+	.banner-form__content {
+		width: 398px;
+	}
+
+	.form-content__item {
+		padding: 80px 50px 0 50px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	.smedia-info__text {
+		font-size: 14px;
+		width: 402px;
+	}
+
+	.tabs-content-text__title {
+		font-size: 24px;
+		margin: 38px 0;
+	}
+
+	.tabs-content-text__description {
+		font-size: 14px;
+		line-height: 16.44px;
+		width: 482.89px;
+	}
+
+	.tabs-content-text__description-main {
+		padding-top: 38px;
+	}
+
+	.tabs-content__img {
+		width: 398.21px;
+	}
+
+	.tabs-content-text__btn {
+		width: 231px;
+	}
+
+	.tabs-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.title {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.awesome-text p {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.awesome-content-item__img img {
+		width: 56px;
+		height: 56px;
+	}
+
+	.awesome-content-item__img {
+		width: 80px;
+		height: 80px;
+		border: 1px solid #EC7979;
+		border-radius: 50%;
+		margin: 0 auto;
+		padding: 12px;
+	}
+
+	.awesome-content-item h3 {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.awesome-content-item__description p {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.price-header {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.price-lorem {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.customer-header {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.lorem {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.speech {
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+		padding: 50px 56px;
+	}
+
+	.name-customer {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.occupation {
+		font-size: 14px;
+		line-height: 16px;
+		margin-left: 94px;
+		margin-top: -18px;
+	}
+
+	#Davis:before {
+		display: inline-block;
+		content: "";
+		width: 63px;
+		height: 63px;
+		background: url("../img/Davis.png") no-repeat center;
+		background-size: contain;
+		vertical-align: top;
+		margin-right: 30px;
+	}
+
+	#Jaydon:before {
+		display: inline-block;
+		content: "";
+		width: 63px;
+		height: 63px;
+		background: url("../img/Jaydon.png") no-repeat center;
+		background-size: contain;
+		vertical-align: top;
+		margin-right: 30px;
+	}
+
+	#Cooper:before {
+		display: inline-block;
+		content: "";
+		width: 63px;
+		height: 63px;
+		background: url("../img/Cooper.png") no-repeat center;
+		background-size: contain;
+		vertical-align: top;
+		margin-right: 30px;
+	}
+
+	.design-header {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.design-text {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.design-button__link {
+		padding: 20px 110px;
+	}
+
+	.contact-header {
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.contact-lorem {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.newform-content__btn {
+		width: 317px;
+	}
+
+
+	.website-time__text {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.header-nav {
+		display: none;
+	}
+
+	.logo-list__mobile {
+		height: 3.6px;
+		width: 24px;
+		background: white;
+		position: relative;
+	}
+
+	.logo-list__mobile:before {
+		content: "";
+		height: 3.6px;
+		width: 24px;
+		background: white;
+		position: absolute;
+		top: -12px;
+	}
+
+	.logo-list__mobile:after {
+		content: "";
+		height: 3.6px;
+		width: 24px;
+		background: white;
+		position: absolute;
+		top: 12px;
+	}
