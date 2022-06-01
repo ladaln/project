@@ -1,0 +1,24 @@
+@import "section_testimonials";
+@import "variables";
+@import "header";
+@import "mixin";
+@import "section_benefits";
+@import "section_project";
+@import "section_team";
+@import "section_download";
+@import "footer";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: $rw, sans-serif;
+}
+
+.wrapper {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}

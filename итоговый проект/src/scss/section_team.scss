@@ -1,0 +1,63 @@
+@import 'mixin';
+@import 'variables';
+
+.team {
+	padding: 114px 0;
+}
+
+.wrapper-team {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -30px;
+}
+
+.team-member {
+	width: 25%;
+	padding: 0 10px;
+	transition: 0.2s;
+
+	&:hover {
+		transform: scale(1.05);
+		box-shadow: 0px 10px 10px -12px rgb(104, 102, 102);
+	}
+
+	&__name {
+		@include fontz(Raleway, 24px, 700, 28px);
+		text-transform: capitalize;
+		color: black;
+		margin-top: 30px;
+		margin-bottom: 5.29px;
+	}
+
+	&__occupation {
+		@include fontz(Raleway, 18px, 400, 21px);
+		text-transform: uppercase;
+		color: #FF4343;
+	}
+
+	&__text {
+		@include fontz(Raleway, 18px, 400, 21px);
+		color: #6C7279;
+		margin-top: 17.86px;
+		margin-bottom: 37.86px;
+	}
+}
+
+.team-member__facebook,
+.team-member__twitter,
+.team-member__linkedin {
+	width: 39px;
+	height: 39px;
+	padding: 10px;
+	border: 1px solid #C6CBCD;
+	fill: #C6CBCD;
+	transition: 0.2s;
+
+	&:hover {
+		cursor: pointer;
+		border: 2px solid #777c7f;
+		border-radius: 20%;
+		fill: #777c7f;
+		background: #fff2f2cc;
+	}
+}

@@ -1,0 +1,46 @@
+@import 'mixin';
+
+.benefits-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 116px 0;
+	margin: 0 -33px;
+
+}
+
+.benefits-item {
+	max-width: 33.3%;
+	padding: 0 12px;
+	transition: 0.2s;
+
+	&__name {
+		@include fontz(Raleway, 24px, 900, 28px);
+		text-align: center;
+		text-transform: uppercase;
+		color: #2D3033;
+		padding: 25px 0;
+		margin: 29px 0 21px 0;
+		transition: 0.2s;
+
+		&:hover {
+			transform: scale(1.1);
+			color: black;
+		}
+	}
+
+	&__text {
+		@include fontz(Raleway, 18px, 400, 21px);
+		text-align: center;
+		color: #6C7279;
+	}
+
+	&__icon {
+		display: block;
+		margin: auto;
+
+		&:nth-last-child(-n+3) {
+			margin-top: 88px;
+		}
+	}
+}
