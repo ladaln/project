@@ -13,7 +13,7 @@
 	position: relative;
 	object-fit: cover;
 
-	@media(max-width:320px) {
+	@media(max-width:768px) {
 		width: 50%;
 	}
 
@@ -25,6 +25,7 @@
 	&:hover {
 		.overlay {
 			opacity: 1;
+			cursor: pointer;
 		}
 	}
 }
@@ -55,7 +56,7 @@
 			margin-bottom: 12px;
 		}
 
-		@media (max-width:320px) {
+		@media (max-width:768px) {
 			margin-bottom: 4px;
 			margin-top: 46px;
 			padding: 0;

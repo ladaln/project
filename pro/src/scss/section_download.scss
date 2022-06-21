@@ -4,7 +4,7 @@
 .download-content {
 	padding: 114px 0;
 
-	@media(max-width:320px) {
+	@media(max-width:768px) {
 		padding: 35px 0;
 	}
 
@@ -18,9 +18,9 @@
 			@include fontz($rw, 24px, 500, 28px);
 		}
 
-		@media(max-width:320px) {
+		@media(max-width:768px) {
 			@include fontz($rw, 18px, 500, 21px);
-			width: 280px;
+
 		}
 	}
 
@@ -36,7 +36,7 @@
 			@include fontz($rw, 14px, 700, 16px);
 		}
 
-		@media(max-width:320px) {
+		@media(max-width:768px) {
 			@include fontz($rw, 13px, 700, 15px);
 
 		}
@@ -65,7 +65,7 @@
 			@include fontz(Raleway, 18px, 900, 21px);
 		}
 
-		@media(max-width:320px) {
+		@media(max-width:768px) {
 			padding: 25px 60px;
 			margin-left: calc(50% - 140px);
 

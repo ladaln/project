@@ -4,7 +4,7 @@
   display: flex;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .slide-content {
     flex-direction: column;
     display: flex;
@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .slide-img {
     width: 320px;
     height: 212px;
@@ -75,7 +75,7 @@ blockquote {
   padding: 15% 20% 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   blockquote {
     text-align: center;
     padding: 40px 20px;
@@ -171,6 +171,7 @@ blockquote {
 
 .header-content {
   z-index: 2;
+  text-align: center;
   position: relative;
 }
 
@@ -194,7 +195,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .header-content__title {
     margin: 49px 0 32.71px;
     padding: 0 5px;
@@ -225,7 +226,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .header-content__text {
     padding: 0;
     font-family: Raleway;
@@ -242,7 +243,6 @@ blockquote {
   border: none;
   margin-top: 82px;
   margin-bottom: 120px;
-  margin-left: calc(50% - 184.5px);
   padding: 25px 100px;
   font-family: Raleway;
   font-size: 24px;
@@ -259,12 +259,11 @@ blockquote {
 
 @media (max-width: 1024px) {
   .header-content__btn {
-    margin-left: calc(50% - 156.5px);
     padding: 25px 60px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .header-content__btn {
     margin: 51px 0;
     padding: 25px 60px;
@@ -273,6 +272,7 @@ blockquote {
 
 .header {
   background: url("banner.bcd43490.jpg") center / cover no-repeat;
+  position: relative;
 }
 
 .header:before {
@@ -297,7 +297,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .header-main__logo img {
     width: 160px;
   }
@@ -340,18 +340,11 @@ blockquote {
 .benefits-wrapper {
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -33px;
   padding: 28px 0 116px;
   display: flex;
 }
 
-@media (max-width: 1024px) {
-  .benefits-wrapper {
-    margin: 0 -20px;
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .benefits-wrapper {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -362,18 +355,18 @@ blockquote {
 }
 
 .benefits-wrapper .benefits-item {
-  max-width: 33.3%;
+  max-width: 32%;
   padding: 0 12px;
   transition: all .2s;
 }
 
 @media (max-width: 1024px) {
   .benefits-wrapper .benefits-item {
-    padding: 0 15px;
+    padding: 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .benefits-wrapper .benefits-item {
     max-width: 100%;
   }
@@ -406,7 +399,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .benefits-wrapper .benefits-item__name {
     margin: 0;
     padding: 15px 0;
@@ -431,7 +424,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .benefits-wrapper .benefits-item__text {
     padding: 0 10px;
   }
@@ -449,7 +442,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .benefits-wrapper .benefits-item__icon {
     width: 75px;
     height: 75px;
@@ -470,7 +463,7 @@ blockquote {
   overflow: hidden;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .project-image {
     width: 50%;
   }
@@ -483,6 +476,7 @@ blockquote {
 
 .project-image:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .overlay {
@@ -520,7 +514,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .overlay-title {
     margin-top: 46px;
     margin-bottom: 4px;
@@ -556,7 +550,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .team {
     padding: 35px 0;
   }
@@ -567,8 +561,17 @@ blockquote {
   display: flex;
 }
 
+@media (max-width: 768px) {
+  .wrapper-team {
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
+
 @media (max-width: 320px) {
   .wrapper-team {
+    text-align: start;
     flex-wrap: wrap;
     display: flex;
   }
@@ -579,7 +582,7 @@ blockquote {
   transition: all .2s;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .team-member {
     width: 100%;
   }
@@ -589,7 +592,7 @@ blockquote {
   margin-right: 30px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .team-member:not(:last-child) {
     margin-right: 0;
   }
@@ -613,7 +616,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .team-member__img {
     max-width: 280px;
     height: 227px;
@@ -631,7 +634,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .team-member .card {
     width: 100%;
     height: 227px;
@@ -705,10 +708,10 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .team-member .team-member__text {
     width: 280px;
-    margin-top: 38.49px;
+    margin: 38.49px auto 0;
   }
 }
 
@@ -738,7 +741,7 @@ blockquote {
   border-radius: 20%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .team-member .team-member__facebook, .team-member .team-member__twitter, .team-member .team-member__linkedin {
     width: 39px;
     height: 39px;
@@ -750,7 +753,7 @@ blockquote {
   padding: 114px 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .download-content {
     padding: 35px 0;
   }
@@ -775,9 +778,8 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .download-content__title {
-    width: 280px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 500;
@@ -806,7 +808,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .download-content__text {
     font-family: Raleway;
     font-size: 13px;
@@ -847,7 +849,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .download-content__btn {
     margin-left: calc(50% - 140px);
     padding: 25px 60px;
@@ -873,7 +875,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .info {
     flex-direction: column;
     margin-left: 0;
@@ -909,7 +911,7 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .info-location, .info-share, .info-about {
     width: 100%;
     padding: 0;
@@ -986,7 +988,7 @@ blockquote {
   padding: 24px 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .copyright-content {
     padding: 29px 0;
   }
@@ -1013,10 +1015,9 @@ blockquote {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .copyright-content p {
-    width: 280px;
-    margin: 0;
+    width: 100%;
     padding: 0;
   }
 }
